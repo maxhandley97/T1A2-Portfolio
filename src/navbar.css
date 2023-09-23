@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding-top: 50.167px;
+    background-color: rgb(195, 234, 255);
+}
+.button {
+    border: 2px solid lightblue;
+    border-radius: 1vw;
+    background-color: rgb(188, 147, 64);
+    color: rgb(14, 14, 172);
+    padding: 1vw;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.button:hover {
+    background-color: lightblue;
+
+}
+.navbar {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    z-index: 10;
+    background-color: rgb(89, 153, 255);
+    position: fixed;
+}
+.unset-link-styles {
+    text-decoration: none;
+    color: black;
+}
