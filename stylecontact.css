@@ -1,0 +1,69 @@
+.heading { 
+    text-align: center;
+    width: 100%;
+    height: 15em;
+    overflow: hidden;
+    position: relative;
+    max-height: 15em;
+
+}
+.heading h1 {
+    z-index: 1;
+    text-align: center;
+    padding-top: 10vh;
+
+}
+.heading img { 
+    width: 100%;
+    position: absolute;
+    height: fit-content;
+    z-index: -2;
+    top: -10em;
+    left: 0;
+    min-height: ;
+    aspect-ratio: 3/2;
+}
+.content {
+    padding: 0 0 0 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem
+    
+}
+.details {
+    height: 20rem;
+    width: 48%;
+    padding: 0.5rem 0 1rem;
+    display: inline-block;
+}
+.details > div {
+    width: 100%;
+    padding-top: 1rem
+}
+
+.bottom {
+    width: 50%;
+    background-color: blueviolet;
+    text-align: center;
+}
+.bottom p {
+    font-size: 1em;
+    padding:.2rem;
+    color: white;
+}
+
+.logo-container > a, .logo-container > .logos > a:visited  {
+   color: white;
+   font-size: 10vw;   
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+    padding: 1rem
+
+}
