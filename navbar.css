@@ -4,7 +4,7 @@
     padding: 0;
 }
 body {
-    padding-top: 7.5vw;
+    padding-top: 4.8vh;
     background-color: rgb(195, 234, 255);
     font-family: Arial, Helvetica, sans-serif;;
 }
@@ -14,12 +14,11 @@ body {
     background-color: rgb(188, 147, 64);
     color: rgb(14, 14, 172);
     content: 10px 40px;
-    padding: 5px;
-
+    padding: .5vh;
     text-align: center;
     display: inline-block;
-    font-size: 15px;
-    margin: .3rem .5rem;
+    font-size: 2vh;
+    margin: .5vh .5rem;
     white-space: no-wrap;
 }
 .button:hover {
@@ -29,7 +28,6 @@ body {
 .navbar {
     top: 0;
     width: 100%;
-    max-height: 50px;
     display: flex;
     justify-content: space-evenly;
     justify-content: flex-start;
