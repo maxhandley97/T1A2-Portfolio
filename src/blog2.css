@@ -1,0 +1,86 @@
+main {
+
+}
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+ul {padding-left: 1rem;
+}
+  
+  summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+summary > h2 {display: inline;
+}
+
+.split{
+    display:block;
+    margin: 4px;
+    border-bottom: 1px rgb(194, 194, 194) solid;
+}
+.split span, .split div{
+    border-left: 10px;
+    display: inline-block;
+}
+  
+  details[open] {
+    padding: 0.5em;
+  }
+  
+  details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+  }
+
+.blogpostcontainer {
+    padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+.blogpost {
+    padding: 1rem;
+    width: 20rem;
+    height: 50%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: .5rem;
+    text-align: center;
+    background-color: beige;
+    border-radius: 10px;
+}
+.blogpostimg {
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    position: relative;  
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blogpost > img {
+    position: absolute;
+
+}
+.blogpostimg1 {
+    scale: .6;
+}
+.blogpostimg2 {
+    scale:.3;
+}
+.blogpostimg3 {
+    scale: .4;
+}
+.blogpostimg4 {
+    scale:.23;
+}
+.blogpostimg5 {
+    scale:.19;
+}
