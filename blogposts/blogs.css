@@ -2,6 +2,9 @@
 a:visited, a:link {
     color: black;
 }
+details {
+    padding-left: 1rem;
+}
 .split{
     display:block;
     margin: 4px;
