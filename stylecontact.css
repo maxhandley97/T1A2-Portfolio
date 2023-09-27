@@ -27,11 +27,12 @@
     left: 0;
 }
 .content {
-    padding: 0 0 0 1rem;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: 1rem;
+    align-items: center;
     
 }
 .details {
@@ -43,6 +44,9 @@
 .details > div {
     width: 100%;
     padding-top: 1rem
+}
+.content > h1 {
+    font-size: 1vw;
 }
 
 .bottom {

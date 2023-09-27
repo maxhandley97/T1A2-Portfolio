@@ -1,5 +1,5 @@
-main {
-
+header > h1 {text-align: center;
+    padding: 1rem;
 }
 details {
     border: 1px solid #aaa;
@@ -16,11 +16,18 @@ ul {padding-left: 1rem;
   }
 summary > h2 {display: inline;
 }
+.blogpost > h5 {color: grey;
+    font-weight: 100;
+    font-size: .9em;
+}
 
 .split{
     display:block;
     margin: 4px;
     border-bottom: 1px rgb(194, 194, 194) solid;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
 }
 .split span, .split div{
     border-left: 10px;
@@ -43,10 +50,21 @@ summary > h2 {display: inline;
     justify-content: space-evenly;
     gap: 0.5rem;
 }
+.blog-summary {
+    height: px;
+   
+}
+.truncate {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+
+}
 .blogpost {
     padding: 1rem;
     width: 20rem;
-    height: 50%;
+    height: 25rem;
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -57,8 +75,8 @@ summary > h2 {display: inline;
 }
 .blogpostimg {
     border-radius: 20px;
-    width: 250px;
-    height: 250px;
+    width: 15rem;
+    height: 15rem;
     position: relative;  
     overflow: hidden;
     display: flex;
