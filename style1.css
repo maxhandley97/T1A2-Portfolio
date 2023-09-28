@@ -8,14 +8,6 @@ body {
     background-color: rgb(195, 234, 255);
 }
 
-.introduction .linkcircles {
-    color: aquamarine;
-}
-
-.unset-link-styles {
-    text-decoration: none;
-    color: black;
-}
 
 .profile{ 
     border-radius: 50%;
@@ -48,24 +40,31 @@ body {
 }
 
 .profile-title{
-    color: rgb(255, 255, 255);
+    color: lightblue;
     width: 100%;
     text-align: center;
     margin-top: 0.5rem;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
-
+.introduction-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
 .introduction {
     text-align: center;
-    padding-top: 3%;
+    padding: 1rem;
+    background-color: #095B93;
+    width: fit-content;
+    border-radius: 10px;
 }
 
 .introduction p {
     font-size: 1rem;
     padding: .2rem;
-    color: white;
-    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    color: lightblue;
+    
 }
 
 .linkcircles {
@@ -90,12 +89,15 @@ body {
 .minipic {
     width: 250px;
     aspect-ratio: 1/1;
-    border-radius: 50%;
+    border-radius: 30%;
+    border: 3px solid #095B93;
     position: relative; 
     overflow: hidden;
     background-color: white;
 }
-
+.minipic:hover{
+    scale: 1.1;
+}
 .minipic .pic {
     position: absolute;
     height: 100%;
@@ -113,13 +115,15 @@ body {
 }
 
 .info-link-card > h3 {
-    color: white;
-    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    color: #095B93;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 1rem;
 }
 .bottom {
     width: 100%;
     height: 30%; 
-    background-color: blueviolet;
+    background-color: #095B93;
     text-align: center;
 }
 .bottom p {
@@ -148,8 +152,10 @@ body {
 .footer {
     width: 100%;
     height: 30%;
-    background-color: rgb(203, 155, 255);
+    background-color: #095B93;
+    border-top:3px solid lightblue;
     text-align: center;
+    color: #bae4fc
 
 }
 

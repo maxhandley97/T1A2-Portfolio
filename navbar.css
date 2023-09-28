@@ -5,38 +5,77 @@
     text-decoration: none;
 }
 body {
-    padding-top: 4.8vh;
-    background-color: rgb(195, 234, 255);
+    padding-top: 4rem;
+    background-color: #bae4fc;
     font-family: Arial, Helvetica, sans-serif;;
 }
 .button {
     border: 2px solid lightblue;
     border-radius: 10px;
-    background-color: rgb(188, 147, 64);
+    background-color: #095B93;
     color: rgb(14, 14, 172);
-    content: 10px 40px;
-    padding: .5vh;
+    padding: 0 1rem;
     text-align: center;
-    display: inline-block;
-    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
     margin: .5vh .5rem;
     white-space: no-wrap;
+    z-index: 20;
 }
 .button:hover {
-    background-color: lightblue;
+    background-color:rgb(14, 14, 172);
+    scale: 1.1;
 
+}
+.nav-color {
+    color: #0b45cc;
+    z-index: 15;
+    top: 0;
+    position: fixed;
+    height: 4rem;
+}
+.navbar a:first-child {
+    margin-right: auto;
 }
 .navbar {
     top: 0;
     width: 100%;
+    min-height: 4rem;
     display: flex;
     justify-content: space-evenly;
-    justify-content: flex-start;
+    justify-content: flex-end;
     z-index: 10;
-    background-color: rgb(89, 153, 255);
     position: fixed;
+    background-color: #095B93;
 }
 .unset-link-styles {
     text-decoration: none;
-    color: black;
+    color: lightblue
+}
+@media only screen and (min-width: 320px) and (max-width: 420px){
+    .button > a, i {
+        transform: scaleX(.8)
+    }
+    .button {
+    margin: none;
+    scale: .7;
+    /* padding: none; */
+    }
+    .navbar {
+        justify-content: space-evenly;
+        column-gap: 10px;
+
+    }
+
+   
+   
+  
+}
+
+@media only screen and (min-width: 401px) and (max-width: 1000px){
+    .navbar a:first-child{margin-right: auto;
+    }
+
 }
