@@ -9,12 +9,14 @@
     <script src="https://kit.fontawesome.com/17282fed4e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="/src/index.html" class="button unset-link-styles">Home</a>
-        <a href="/src/aboutme.html" class="button unset-link-styles">About</a>
-        <a href="/src/career.html" class="button unset-link-styles">Career</a>
-        <a href="/src/bloglanding.html" class="button unset-link-styles">Blog</a>
-        <a href="/src/links-contact.html" class="button unset-link-styles">Contact</a>
+    <!-- Needed to encase nav for media screen -->
+    <nav class="nav-color">
+        <div class="navbar">
+            <a href="/src/index.html" class="button unset-link-styles"><i class="fa-solid fa-house"></i></a>
+            <a href="/src/about.html" class="button unset-link-styles">About</a>
+            <a href="/src/bloglanding.html" class="button unset-link-styles">Blog</a>
+            <a href="/src/links-contact.html" class="button unset-link-styles">Contact</a>
+        </div>
     </nav>
     <section class="banner">
         <img src="/src/images/mullum.jpg" class="background-image" alt="MY BACKGROUND">
@@ -27,27 +29,20 @@
         </div>
     </section>
     <content>
-        <div class="introduction">
-            <p>You've just landed at the website, designed and crafted by a 26 year old software developer in the making.</p>
-            <p>As the background suggests, I'm based in the hills around Mullumbimby, NSW.</p> 
-            <p>Explore to find out more!</p>
-        </div>
+        <section class="introduction-container">
+            <div class="introduction">
+                <p>You've just landed at the website, designed and crafted by a 26 year old software developer in the making.</p>
+                <p>As the background suggests, I'm based in the hills around Mullumbimby, NSW.</p> 
+                <p>Explore to find out more!</p>
+            </div>
+        </section>
         <div class="linkcircles">
-            <a href="/src/aboutme.html" class="unset-link-styles">
+            <a href="/src/about.html" class="unset-link-styles">
             <div class="info-link-card"> 
                 <div class="minipic">
                     <img src="/src/images/surfboard.jpg" class="pic surfboard-pic">
                 </div>
                 <h3>About Me</h3>
-            </div>
-            </a>
-
-            <a href="/src/career.html" class= "unset-link-styles">
-            <div class="info-link-card">
-                <div class="minipic">
-                    <img src="/src/images/education.jpg" class="pic education-pic">
-                </div>
-                <h3>Education and Career</h3>
             </div>
             </a>
 

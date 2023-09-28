@@ -1,0 +1,116 @@
+
+p, h1, h2, h3, li {
+    color:#095B93
+}
+.harbour-container {
+    border-radius: 10px;
+    height: 20rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.harbour-img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    height: auto;
+    min-height: 20rem;
+    min-width: 36rem;
+    aspect-ratio: 1.8/1;
+}
+.harbour-container h1 {
+    z-index: 1;
+    color: lightblue;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+.resume-top {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: space-between, center;
+    flex-wrap: no-wrap;
+}
+.synopsis {
+    padding-right: 3vw;
+    display: inline-block;
+    width: 68%;
+    position: relative;
+
+}
+.synopsis h1 {
+    text-align: center;
+    padding: 1rem;
+}
+.synopsis > p {
+    padding: 1rem;
+    border: 3px solid #095B93;
+
+}
+
+.resume {
+    top: 0;
+    height: 100%;
+    width: 29%;
+
+    /* width: fit-content; */
+    display: inline-block;
+}
+.resumelink {
+    height:100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #bae4fc;
+}
+.resumelink:hover {scale: 1.2;
+}
+.resume-title {padding-bottom: 1rem;
+}
+
+.resume > i {
+    font-size: 4rem;
+}
+
+
+.header {
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+p, li {line-height: 1.6;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+.career-container {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.career-container ul {
+    padding-top: 1rem;
+    text-align: right;
+}
+.articles {
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 40rem;
+    padding: 1rem 1rem 1rem 2rem;
+    background-color: lightblue;
+
+}
+.articles h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.footer {
+    width: 100%;
+    height: 30%;
+    background-color: #095B93;
+    text-align: center;
+    color: #bae4fc
+}
