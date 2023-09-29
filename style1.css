@@ -83,7 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 28px;
+    gap: 10px;
 }
 
 .minipic {
@@ -94,29 +94,37 @@ body {
     position: relative; 
     overflow: hidden;
     background-color: white;
+    
 }
 .minipic:hover{
     scale: 1.1;
 }
-.minipic .pic {
-    position: absolute;
-    height: 100%;
-    left: 0;
+.minipic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minipic > .pic {
+    width: 30rem;
+    height: auto;
+
 }
 
 .minipic .contact-pic  {
     transform: scale(0.8);
 }
 .minipic .surfboard-pic {
-    left: -4vw;
+    left: -10vw;
+    transform: scale(.8);
+    
 }
-.minipic .education-pic {
-    left: -18vw;
+.minipic .stifi-pic {
+    transform: scale(.8);
+    left: -8vw;
 }
 
 .info-link-card > h3 {
     color: #095B93;
-    border: 1px solid #000000;
     border-radius: 5px;
     padding: 1rem;
 }
@@ -129,24 +137,23 @@ body {
 .bottom p {
     font-size: 1em;
     padding:.2rem;
-    color: white;
+    color: lightblue;
 }
 
 .logo-container > a, .logo-container > .logos > a:visited  {
-   color: white;
-   font-size: 10vw;   
+   color: lightblue;
+   font-size: 8rem;   
 }
 
 .logo-container {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 8vw;
-
 }
-.logo-container > .logos {
-    /* width: 300px; */
-
+.logos:hover {
+    transform: scale(1.2)
 }
 
 .footer {

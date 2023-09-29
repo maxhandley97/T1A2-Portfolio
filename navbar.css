@@ -24,6 +24,9 @@ body {
     white-space: no-wrap;
     z-index: 20;
 }
+a:visited, a:link {
+    color: lightblue;
+}
 .button:hover {
     background-color:rgb(14, 14, 172);
     scale: 1.1;
@@ -56,16 +59,16 @@ body {
 }
 @media only screen and (min-width: 320px) and (max-width: 420px){
     .button > a, i {
-        transform: scaleX(.8)
+        
     }
     .button {
-    margin: none;
-    scale: .7;
-    /* padding: none; */
+        font-size: 1rem;
+        padding: 0 .5rem;
     }
     .navbar {
-        justify-content: space-evenly;
-        column-gap: 10px;
+        /* justify-content: space-evenly; */
+        gap: 0px;
+        overflow: auto;
 
     }
 
@@ -75,7 +78,8 @@ body {
 }
 
 @media only screen and (min-width: 401px) and (max-width: 1000px){
-    .navbar a:first-child{margin-right: auto;
+    .navbar a:first-child{
+        /* margin-right: auto; */
     }
 
 }
