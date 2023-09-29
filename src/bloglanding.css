@@ -1,22 +1,28 @@
 header > h1 {text-align: center;
     padding: 1rem;
+    color:#095B93;
 }
 details {
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: 0.5em 0.5em 0;
 }
+.ul > a:visited, a:link {
+    color: #095B93;
+}
 ul {padding-left: 1rem;
 }
-  
+
 summary {
+    color:#095B93;
     font-weight: bold;
     margin: -0.5em -0.5em 0;
     padding: 0.5em;
   }
 summary > h2 {display: inline;
+
 }
-.blogpost > h5 {color: darkblue; font-size:
+.blogpost > h5 {color: lightblue;
     font-weight: 100;
     font-size: .9em;
 }
@@ -42,15 +48,13 @@ summary > h2 {display: inline;
     border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
   }
-a:visited, a:link {
-    color: lightblue;
-}
+
 .blogpostcontainer {
-    padding-top: 3rem;
+    padding: 3rem .5rem 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 0.5rem;
+    gap: 1.5rem;
 }
 .blog-summary {
     height: px;
@@ -61,7 +65,6 @@ a:visited, a:link {
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
-
 }
 .blogpost {
     padding: 1rem;
@@ -74,6 +77,10 @@ a:visited, a:link {
     text-align: center;
     background-color: #095B93;
     border-radius: 10px;
+    border: 3px solid #bae4fc;
+}
+.blogpost:hover {
+    scale: 1.1;
 }
 .blogpostimg {
     border-radius: 20px;

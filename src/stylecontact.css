@@ -1,19 +1,25 @@
+.header {
+    top: 0;
+    height: 20em;
+}
 .headingcontainer { 
-    text-align: center;
     width: 100%;
-    height: 15em;
+    height: 100%;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.header {
-    height: 15em;
+.headingcontainer > img {
+    min-width: 570px;
 }
+
 .header > h1 {
+    position: relative;
     z-index: 1;
+    top:-16.5rem;
     margin: auto;
     text-align: center;
     padding-top: 10vh;
@@ -28,9 +34,11 @@
     left: 0;
 }
 .content{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     /* padding-right: 2rem; */
 
 }
@@ -48,17 +56,22 @@
 .details > div {
     width: 100%;
     padding: 1rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
+    color:#095B93;
 }
 .resume {
     top: 0;
-    height: 100%;
+    
     width: 29%;
     padding: 2rem 2rem 2rem 0;
 
     /* width: fit-content; */
     display: inline-block;
 }
+.resumelink > a:visited, .resumelink > a:link {
+    color:#095B93;
+}
+
 .resumelink {
     height:100%;
     text-align: center;
@@ -80,7 +93,7 @@
 .bottom {
     padding-top: 2em;
     width: 100%;
-    min-height: 20rem;
+    min-height: 10rem;
     background-color: #0b45cc;
     text-align: center;
 }
@@ -93,7 +106,7 @@
 
 .logo-container > a, .logo-container > .logos > a:visited  {
    color: white;
-   font-size: 20vh;   
+   font-size: 15vh;   
 }
 .logo-container > a:hover {
     scale: 1.5;
@@ -114,3 +127,20 @@
     text-align: center;
     color: #bae4fc
 }
+@media only screen and (min-width: 320px) and (max-width: 550px){
+    .resume {
+        width:100%;
+    }
+    .details {
+        width: 100%;
+    }
+    .resume-top {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    /* To reduce warping */
+    .resume i {
+        transform: scaleX(1.1)
+    }
+}
+
