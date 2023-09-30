@@ -52,6 +52,7 @@ p, h1, h2, h3, li {
 .synopsis > p {
     padding: 1rem;
     border: 3px solid #095B93;
+    border-radius: 10px;
 
 }
 
@@ -59,8 +60,6 @@ p, h1, h2, h3, li {
     padding-top: 2rem;
     height: 100%;
     width: 25%;
-
-    /* width: fit-content; */
     display: inline-block;
 }
 
@@ -139,7 +138,7 @@ p, li {line-height: 1.6;
         transform: scaleX(1.1)
     }
 }
-@media only screen and (min-width 421px) and (max-width: 608px){
+@media only screen and (min-width: 421px) and (max-width: 608px){
     .resume {
         width: 100%;
        

@@ -16,13 +16,11 @@
     min-width: 570px;
 }
 
-.header > h1 {
+.headingcontainer > h1 {
     position: relative;
     z-index: 1;
-    top:-16.5rem;
     margin: auto;
     text-align: center;
-    padding-top: 10vh;
     color: lightblue;
     text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 
@@ -61,12 +59,10 @@
 }
 .resume {
     top: 0;
-    
     width: 29%;
     padding: 2rem 2rem 2rem 0;
-
-    /* width: fit-content; */
     display: inline-block;
+    
 }
 .resumelink > a:visited, .resumelink > a:link {
     color:#095B93;
@@ -77,6 +73,7 @@
     text-align: center;
     padding: 1rem;
     background-color: #bae4fc;
+    transition: .5s ease-in-out;
 }
 .resumelink:hover {scale: 1.2;
     top: -1rem;
@@ -94,19 +91,19 @@
     padding-top: 2em;
     width: 100%;
     min-height: 10rem;
-    background-color: #0b45cc;
+    background-color: #095B93;
     text-align: center;
 }
 .bottom p {
     font-size: 1em;
-    
     padding:.2rem;
-    color: white;
+    color: lightblue;
 }
 
 .logo-container > a, .logo-container > .logos > a:visited  {
    color: white;
-   font-size: 15vh;   
+   font-size: 15vh; 
+   transition: .5s ease-in-out;  
 }
 .logo-container > a:hover {
     scale: 1.5;
@@ -118,7 +115,8 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 5vw;
-    padding: 1rem
+    padding: 1rem;
+    
 }
 .footer {
     width: 100%;
