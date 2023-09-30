@@ -18,8 +18,10 @@ summary {
     font-weight: bold;
     margin: -0.5em -0.5em 0;
     padding: 0.5em;
+    text-align: center;
   }
 summary > h2 {display: inline;
+   
 
 }
 .blogpost > h5 {color: lightblue;
