@@ -1,9 +1,9 @@
 # T1A2-Portfolio 
-[Published portfolio] \
+[URL to Published Portfolio](https://maxhandley97.github.io/T1A2-Portfolio/bloglanding.html) \
 [Max's Github Repository](https://github.com/maxhandley97/T1A2-Portfolio)
 -
 ## Purpose 
-The purpose of my website is to give future employers and potential future clients an opportunity to get to know who I am, my history and where I'm from, as well as present my novice skills (at this stage) in crafting their future website.
+The purpose of my website is to give future employers and potential future clients an opportunity to get to know who I am, my history and where I'm from, as well as present my adept skills in crafting their future website.
 
 ## Functionality and Features
 The website has 9 linked components that are accessable by using the navigation bar, fixed to the top of the viewport.
@@ -36,7 +36,7 @@ This project was completed using the following languages:
 - CSS
 - HTML
 
-It was built on the VSCode application and deployed using Github Pages.
+It was built using VSCode and deployed using Github Pages.
 
 
 
