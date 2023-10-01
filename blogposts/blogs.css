@@ -6,7 +6,7 @@
 
     
 }
-.ul > a:visited, a:link {
+.ul > a:visited, .ul > a:link {
     color: #095B93;
 
 }
