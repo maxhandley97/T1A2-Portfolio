@@ -1,5 +1,5 @@
 # T1A2-Portfolio 
-[URL to Published Portfolio](https://maxhandley97.github.io/T1A2-Portfolio/bloglanding.html) \
+[URL to Published Portfolio](https://maxhandley97.github.io/T1A2-Portfolio/index.html) \
 [Max's Github Repository](https://github.com/maxhandley97/T1A2-Portfolio)
 -
 ## Purpose 
