@@ -7,9 +7,7 @@ details {
     border-radius: 4px;
     padding: 0.5em 0.5em 0;
 }
-.ul > a:visited, a:link {
-    color: #095B93;
-}
+
 ul {padding-left: 1rem;
 }
 
@@ -20,10 +18,14 @@ summary {
     padding: 0.5em;
     text-align: center;
   }
-summary > h2 {display: inline;
-   
-
+summary > h2 {
+    display: inline;
 }
+summary:hover {
+    background-color: #095B93;
+    color: lightblue;
+}
+
 .blogpost > h5 {color: lightblue;
     font-weight: 100;
     font-size: .9em;
@@ -50,6 +52,13 @@ summary > h2 {display: inline;
     border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
   }
+  
+  .ul > a:visited, .ul > a:link {
+    color: #095B93;
+}
+.ul > a:hover {
+    font-weight: bold;
+}
 
 .blogpostcontainer {
     padding: 3rem .5rem 2rem;
@@ -80,6 +89,7 @@ summary > h2 {display: inline;
     background-color: #095B93;
     border-radius: 10px;
     border: 3px solid #bae4fc;
+    transition: .5s ease-in-out;
 }
 .blogpost:hover {
     scale: 1.1;
